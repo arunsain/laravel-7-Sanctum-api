@@ -1409,7 +1409,7 @@
 		                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
 		                            <div class="col-md-6">
-		                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+		                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}"                                                required autocomplete="email" autofocus>
 
 		                                @error('email')
 		                                    <span class="invalid-feedback" role="alert">
@@ -1423,7 +1423,7 @@
 		                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
 
 		                            <div class="col-md-6">
-		                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+		                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required                                                       autocomplete="current-password">
 
 		                                @error('password')
 		                                    <span class="invalid-feedback" role="alert">
@@ -1488,7 +1488,7 @@
 		                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
 		                            <div class="col-md-6">
-		                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+		                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required                                       autocomplete="name" autofocus>
 
 		                                @error('name')
 		                                    <span class="invalid-feedback" role="alert">
@@ -1502,7 +1502,7 @@
 		                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
 		                            <div class="col-md-6">
-		                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
+		                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}"                                                    required autocomplete="email">
 
 		                                @error('email')
 		                                    <span class="invalid-feedback" role="alert">
@@ -1516,7 +1516,7 @@
 		                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
 
 		                            <div class="col-md-6">
-		                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+		                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required                                                          autocomplete="new-password">
 
 		                                @error('password')
 		                                    <span class="invalid-feedback" role="alert">
@@ -1580,7 +1580,7 @@
 		                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
 		                            <div class="col-md-6">
-		                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+		                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}"                                                required autocomplete="email" autofocus>
 
 		                                @error('email')
 		                                    <span class="invalid-feedback" role="alert">
@@ -1628,7 +1628,7 @@
 		                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
 		                            <div class="col-md-6">
-		                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ $email ?? old('email') }}" required autocomplete="email" autofocus>
+		                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ $email ?? old('email')                                          }}" required autocomplete="email" autofocus>
 
 		                                @error('email')
 		                                    <span class="invalid-feedback" role="alert">
@@ -1642,7 +1642,7 @@
 		                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
 
 		                            <div class="col-md-6">
-		                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+		                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required                                                          autocomplete="new-password">
 
 		                                @error('password')
 		                                    <span class="invalid-feedback" role="alert">
@@ -1760,7 +1760,7 @@
 		                <a class="navbar-brand" href="{{ url('/') }}">
 		                    {{ config('app.name', 'Laravel') }}
 		                </a>
-		                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+		                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-                          expanded="false" aria-label="{{ __('Toggle navigation') }}">
 		                    <span class="navbar-toggler-icon"></span>
 		                </button>
 
@@ -1784,7 +1784,7 @@
 		                            @endif
 		                        @else
 		                            <li class="nav-item dropdown">
-		                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+		                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-                                            expanded="false" v-pre>
 		                                    {{ Auth::user()->name }} <span class="caret"></span>
 		                                </a>
 
